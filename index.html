@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+     <link rel="stylesheet" href="styles.css">
+     <meta name="viewport"    
+        content="width=device-width">
+     <meta charset="utf-8">
+     <title>Survey Form</title>
+   </head>
+   <body>
+     <main>
+       <h1 id="title">Survey Form</h1>
+       <p id="description">Please take few seconds  to share your openion about our product</p>
+       <form id="survey-form" action="">
+         <fieldset class="field1">
+         <label id="name-label" for="name">Name : <input type="text" id="name" placeholder="ex: Suman" required ></label>
+        <label for="email" id="email-label">Email : <input type="email" id="email" placeholder="ex: xyz@gmail.com" required></label>
+        <label for="number" id="number-label">Number : <input type ="number" id="number" patter="[0-9]" min="10" max="12" placeholder="ex: 924XXXXX89"></label>
+        <label>Age: <input type="number" min="10" max="120"></label>
+</fieldset>
+
+<fieldset>        
+<section>           
+<label>Gender :   <label>               <input type="radio" name="gen" value="M">male</label>
+  <label><input type="radio" name="gen" value="F">female</label>        <label><input type="radio" name="gen" value="Other">other</label>
+</label>
+</section>
+
+<section>
+<label>what is your skin type? 
+        <select id="dropdown"> 
+          <option>Choose one</option>
+          <option>oily</option>
+          <option>dry</option>
+          <option>combination</option>
+          <option>sensitive</option>
+          <option>normal</option>
+</select>
+</label>
+</section>
+
+<section>
+<label>Have your used our product?          <label><input type="radio" name="prod" value="yep"> Yes</label>          <label><input type="radio" name="prod" value="nope"> No</label>   
+</section>
+
+<section>
+<label>Which product did you use? 
+<label> <input type="checkbox" value="cleanser"> cleanser</label>
+            <label><input type="checkbox" value="toner"> toner</label>
+            <label><input type="checkbox" value="moisturizer"> moisturizer</label>
+           <label> <input type="checkbox" value="serum"> serum</label>
+            <label><input type="checkbox" value="mask"> mask</label>
+            <label> <input type="checkbox"
+value="other"> other</label>
+</label>
+</section>
+
+<section>
+<label>On scale 1-10 how satisfied were you with our product? <input type="number" patter="[1-10]" minwidth="1" max-width="2"></label>
+</section>
+
+<section>
+<label>How did you hear about our product? 
+<select>
+  <option>Choose one:</option>
+            <option>Social media</option>
+            <option>Friend</option>
+            <option>Other</option>
+</select>
+    
+<section>        <label>        <label>Would you recommend our product to your friend? <label><input type="radio" name="recommend" value="yep"> Yes</label>
+        <label><input type="radio" name="recommend" value="nope"> No</label>
+</label>
+</section>
+</fieldset>
+
+<fieldset>
+<label>Is there anything else you'd like to share about your experience with out product? <textarea></textarea></label>
+<input type="submit" id="submit">
+</fieldset>
+       </form>
+     </main>
+   </body>
+</html>

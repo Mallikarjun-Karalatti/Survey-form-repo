@@ -1,0 +1,52 @@
+body{
+    background : linear-gradient(90deg,cyan,magenta);
+ font-family: 'Alkatra', cursive;
+ }
+ 
+ main {
+   width : 450px;
+   margin : 10px auto;
+   text-align: center;
+ }
+ 
+ .field1 label { display : block;}
+ 
+ fieldset { padding : 20px 20px 3px 20px ;
+ background-color: rgba(151, 236, 252,0.5);
+ border : none;
+ margin-bottom:10px;
+ border-radius : 10px;
+ }
+ 
+ .field1 input{
+   width:200px;
+   margin-bottom : 20px;
+ }
+ 
+ section{
+   margin : 15px 10px;
+ }
+ 
+ textarea{
+   width : 300px;
+   height: 50px;
+   margin : 10px auto;
+ }
+ 
+ input[type="submit"]{
+   display : block;
+   margin: 20px auto;
+   width : 300px;
+   height : 25px;
+   font-family:  'Alkatra', cursive;
+   font-weight: bold;
+   background-color : rgb(59, 198, 224,);
+ }
+ 
+ input, select,textarea {
+   border-radius : 5px;
+   border : none;
+   background-color : rgba(57, 217, 240,0.7);
+ }
+ 
+ 
